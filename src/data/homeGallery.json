@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/modernlivingroom.jpg",
+    "alt": "Yellow armchair in a modern living room"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/yellowchair.jpg",
+    "alt": "Minimalist room with yellow chair and wall art"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/Brownsofa.jpg",
+    "alt": "Brown leather sofa with throw blanket"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/roundchair.jpg",
+    "alt": "Modern patio with round chair and plants"
+  }
+]
