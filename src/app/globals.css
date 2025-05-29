@@ -8,3 +8,4 @@
   --color-secondary90: #1a2236;
   --color-tertiary: #1c3ba4;
 }
+@plugin "tailwind-scrollbar-hide";

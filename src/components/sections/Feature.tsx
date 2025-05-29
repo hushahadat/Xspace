@@ -15,7 +15,7 @@ export const featuresData = [
     title: "PROFESSIONALS",
     subtitle: "Find Professionals",
     button: "Explore Now",
-    image: "/images/professionals.png", // Update with your image path
+    image: "/images/Professionals.png", // Update with your image path
     bg: "from-[#f7e3e0] via-[#f7e3e0] to-[#eaeef3]", // Example gradient
   },
 ];
