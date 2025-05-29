@@ -87,9 +87,8 @@ const Footer = () => {
         </div>
 
         {/* Right Section: Navigation and Contact Info */}
-        <div className="flex flex-row lg:flex-col items-end gap-8 w-full lg:w-auto mt-8 lg:mt-0">
-          {/* Navigation Links */}
-          <div className="flex flex-row gap-6 justify-end  text-center  mb-8 lg:mb-0 lg:ml-auto font-semibold">
+        <div className="flex flex-row lg:flex-col md:lg:flex-col justify-between md:items-end gap-8 w-full lg:w-auto mt-8 lg:mt-0">
+          <div className="flex flex-col lg:flex-row md:flex-row md:gap-6 lg:gap-6 lg:text-center  md:text-center  mb-8 lg:mb-0 lg:ml-auto font-semibold">
             <Link href="#" className="hover:text-orange-600 transition-colors">
               Explore Ideas
             </Link>
@@ -102,8 +101,8 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="flex flex-col items-end text-center lg:text-left">
-            <p>123 Design Street, Creativity City, Country</p>
+          <div className="flex flex-col md:items-end md:text-center lg:text-left">
+            <p>123 Design Street, Creativity City</p>
             <p>+123-456-7890</p>
             <p>hello@xspace.com</p>
           </div>
@@ -114,7 +113,7 @@ const Footer = () => {
       <hr className="border-t border-gray-300 my-8" />
 
       {/* Bottom Section: Copyright and Legal Links */}
-      <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-4">
+      <div className="flex flex-col  lg:flex-row md:lg:flex-row justify-between items-center text-sm text-gray-600 gap-4">
         <p>&copy; XSpace 2025 all rights reserved</p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <a href="#" className="hover:text-orange-600 transition-colors">
